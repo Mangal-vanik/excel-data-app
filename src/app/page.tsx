@@ -2,10 +2,15 @@ import InputForm from "./InputForm";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        <InputForm />
-      </div>
+    <main
+      style={{
+        width: "100%",
+        height: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <InputForm />
     </main>
   );
 }
